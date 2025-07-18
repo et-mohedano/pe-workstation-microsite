@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workstation Navigation Training</title>
+    <style>
+        /* Define Brand Colors as CSS Variables for easy management */
+        :root {
+            --brand-dark-blue: #003366;
+            --brand-accent-blue: #00aef0;
+            --text-dark-gray: #333333;
+            --background-light-gray: #f4f4f4;
+            --container-white: #ffffff;
+        }
+
+        /* General page styles with brand colors */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background-light-gray); /* Light gray background */
+            color: var(--text-dark-gray);
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            background: var(--container-white); /* White content area */
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden; /* Ensures footer border-radius is respected */
+        }
+        .content {
+            padding: 25px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--brand-dark-blue); /* Main brand blue for the title */
+            border-bottom: 3px solid var(--brand-accent-blue); /* Accent blue for the underline */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        /* Key styles for the responsive presentation */
+        .responsive-presentation {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .responsive-presentation iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Branded Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: var(--brand-dark-blue); /* Dark blue footer background */
+            color: var(--container-white); /* White text on the footer */
+        }
+         .footer a {
+            color: var(--brand-accent-blue); /* Accent blue for footer links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Workstation Graphical Interface Training</h1>
+            <p>This guide explains how to navigate and operate the EcoStruxure Graphical Interface System.</p>
+
+            <div class="responsive-presentation">
+                <iframe 
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vTNA-8VqntHi6euxJk9YRVUf37fRNrp7ft0k1b1hCmZVD0ieQZZoFQpR-k1zteQOB9BRIfgdiHUMXoJ/pubembed?start=false&loop=false&delayms=3000" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true">
+                </iframe>
+            </div>
+            </div>
+
+        <div class="footer">
+            <p>For support, you can reach our Service team at:<br>
+            Phone: <a href="tel:+1-513-847-1510">(513) 847-1510</a> | Email: <a href="mailto:service@precisionenvironmentsinc.com">service@precisionenvironmentsinc.com</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
